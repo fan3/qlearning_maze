@@ -1,4 +1,5 @@
 import random
+import numpy as np
 
 class Robot(object):
 
@@ -42,10 +43,10 @@ class Robot(object):
         """
         if self.testing:
             # TODO 1. No random choice when testing
-            pass
+            self.epsilon=0
         else:
             # TODO 2. Update parameters when learning
-            pass
+            self.epsilon=self.epsilon-0.1
 
         return self.epsilon
 
@@ -55,7 +56,7 @@ class Robot(object):
         """
 
         # TODO 3. Return robot's current state
-        return None
+        return self.maze.sense_robot()
 
     def create_Qtable_line(self, state):
         """
@@ -66,7 +67,11 @@ class Robot(object):
         # Qtable[state] ={'u':xx, 'd':xx, ...}
         # If Qtable[state] already exits, then do
         # not change it.
-        pass
+        if state not in self.Qtable.keys():
+            self.Qtable[state]['u']=self.maze.move_robot('u')
+            self.Qtable[state]['d']=self.maze.move_robot('d')
+            self.Qtable[state]['r']=self.maze.move_robot('r')
+            self.Qtable[state]['l']=self.maze.move_robot('l')
 
     def choose_action(self):
         """
@@ -77,20 +82,21 @@ class Robot(object):
             # TODO 5. Return whether do random choice
             # hint: generate a random number, and compare
             # it with epsilon
-            pass
+            return random.random()>self.epsilon
 
         if self.learning:
             if is_random_exploration():
                 # TODO 6. Return random choose aciton
-                return None
+                return np.random.choice(self.valid_actions)
             else:
                 # TODO 7. Return action with highest q value
-                return None
+                return np.argmax(self.Qtable[self.sense_state()])
         elif self.testing:
             # TODO 7. choose action with highest q value
+            return np.argmax(self.Qtable[self.sense_state()])
         else:
             # TODO 6. Return random choose aciton
-
+            return np.random.choice(self.valid_actions)
     def update_Qtable(self, r, action, next_state):
         """
         Update the qtable according to the given rule.
