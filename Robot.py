@@ -91,10 +91,10 @@ class Robot(object):
                 return np.random.choice(self.valid_actions)
             else:
                 # TODO 7. Return action with highest q value
-                return np.argmax(self.Qtable[self.sense_state()])
+                return max(self.Qtable[self.sense_state()],key=self.Qtable[self.sense_state()].get)
         elif self.testing:
             # TODO 7. choose action with highest q value
-            return np.argmax(self.Qtable[self.sense_state()])
+            return max(self.Qtable[self.sense_state()],key=self.Qtable[self.sense_state()].get)
         else:
             # TODO 6. Return random choose aciton
             return np.random.choice(self.valid_actions)
@@ -107,7 +107,7 @@ class Robot(object):
             # TODO 8. When learning, update the q table according
             # to the given rules
             self.Qtable[self.sense_state()][action]=(1-self.alpha)*self.Qtable[self.sense_state()][action]+ \
-                                                     self.alpha*(r+self.gamma*np.max(self.Qtable[next_state].values()))
+                                                     self.alpha*(r+self.gamma*max(self.Qtable[next_state].values()))
 
     def update(self):
         """

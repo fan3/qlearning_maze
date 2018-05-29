@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d402905-997f-4401-820f-62d1cc30eef6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+    <list default="true" id="0d402905-997f-4401-820f-62d1cc30eef6" name="Default" comment="2018-5-29">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Robot.py" afterPath="$PROJECT_DIR$/Robot.py" />
       <change beforePath="$PROJECT_DIR$/robot_maze.ipynb" afterPath="$PROJECT_DIR$/robot_maze.ipynb" />
+      <change beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +16,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Maze.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Maze.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Maze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7360">
-              <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1216#2342#0" expanded="false" />
+                <element signature="e#2433#4186#0" expanded="false" />
+                <element signature="e#4227#5483#0" expanded="false" />
+                <element signature="e#5550#5762#0" expanded="false" />
+                <element signature="e#5818#6354#0" expanded="false" />
+                <element signature="e#6399#7197#0" expanded="false" />
+                <element signature="e#7240#7273#0" expanded="false" />
+                <element signature="e#7316#7697#0" expanded="false" />
+                <element signature="e#7731#7928#0" expanded="false" />
+                <element signature="e#7989#8374#0" expanded="false" />
+                <element signature="e#8427#8607#0" expanded="false" />
+                <element signature="e#8643#8855#0" expanded="false" />
+                <element signature="e#8902#9978#0" expanded="false" />
+                <element signature="e#10078#10122#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -31,31 +45,10 @@
       <file leaf-file-name="Robot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Robot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robot_maze.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/robot_maze.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,10 +57,11 @@
       <file leaf-file-name="Runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="131">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#2039#2150#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -92,6 +86,7 @@
       <find>__default_robot_loc.copy()</find>
       <find>__default_robot_loc</find>
       <find>update_Qtable</find>
+      <find>valid_actions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,9 +96,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Maze.py" />
+        <option value="$PROJECT_DIR$/Robot.py" />
         <option value="$PROJECT_DIR$/robot_maze.ipynb" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/Robot.py" />
       </list>
     </option>
   </component>
@@ -139,8 +134,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,15 +214,23 @@
       <option name="presentableId" value="Default" />
       <updated>1527475463261</updated>
     </task>
+    <task id="LOCAL-00001" summary="2018-5-29">
+      <created>1527583211762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527583211762</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -246,26 +249,32 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2018-5-29" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018-5-29" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Robot.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/Runner.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Robot.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Robot.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/Runner.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -276,6 +285,144 @@
           <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1216#2342#0" expanded="false" />
+            <element signature="e#2433#4186#0" expanded="false" />
+            <element signature="e#4227#5483#0" expanded="false" />
+            <element signature="e#5550#5762#0" expanded="false" />
+            <element signature="e#5818#6354#0" expanded="false" />
+            <element signature="e#6399#7197#0" expanded="false" />
+            <element signature="e#7240#7273#0" expanded="false" />
+            <element signature="e#7316#7697#0" expanded="false" />
+            <element signature="e#7731#7928#0" expanded="false" />
+            <element signature="e#7989#8374#0" expanded="false" />
+            <element signature="e#8427#8607#0" expanded="false" />
+            <element signature="e#8643#8855#0" expanded="false" />
+            <element signature="e#8902#9978#0" expanded="false" />
+            <element signature="e#10078#10122#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#2039#2150#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_maze.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7360">
+          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1216#2342#0" expanded="false" />
+            <element signature="e#2433#4186#0" expanded="false" />
+            <element signature="e#4227#5483#0" expanded="false" />
+            <element signature="e#5550#5762#0" expanded="false" />
+            <element signature="e#5818#6354#0" expanded="false" />
+            <element signature="e#6399#7197#0" expanded="false" />
+            <element signature="e#7240#7273#0" expanded="false" />
+            <element signature="e#7316#7697#0" expanded="false" />
+            <element signature="e#7731#7928#0" expanded="false" />
+            <element signature="e#7989#8374#0" expanded="false" />
+            <element signature="e#8427#8607#0" expanded="false" />
+            <element signature="e#8643#8855#0" expanded="false" />
+            <element signature="e#8902#9978#0" expanded="false" />
+            <element signature="e#10078#10122#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#2039#2150#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_maze.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7360">
+          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1216#2342#0" expanded="false" />
+            <element signature="e#2433#4186#0" expanded="false" />
+            <element signature="e#4227#5483#0" expanded="false" />
+            <element signature="e#5550#5762#0" expanded="false" />
+            <element signature="e#5818#6354#0" expanded="false" />
+            <element signature="e#6399#7197#0" expanded="false" />
+            <element signature="e#7240#7273#0" expanded="false" />
+            <element signature="e#7316#7697#0" expanded="false" />
+            <element signature="e#7731#7928#0" expanded="false" />
+            <element signature="e#7989#8374#0" expanded="false" />
+            <element signature="e#8427#8607#0" expanded="false" />
+            <element signature="e#8643#8855#0" expanded="false" />
+            <element signature="e#8902#9978#0" expanded="false" />
+            <element signature="e#10078#10122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -296,6 +443,7 @@
           <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#2039#2150#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -316,6 +464,20 @@
           <caret line="238" column="83" lean-forward="false" selection-start-line="238" selection-start-column="77" selection-end-line="238" selection-end-column="83" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1216#2342#0" expanded="false" />
+            <element signature="e#2433#4186#0" expanded="false" />
+            <element signature="e#4227#5483#0" expanded="false" />
+            <element signature="e#5550#5762#0" expanded="false" />
+            <element signature="e#5818#6354#0" expanded="false" />
+            <element signature="e#6399#7197#0" expanded="false" />
+            <element signature="e#7240#7273#0" expanded="false" />
+            <element signature="e#7316#7697#0" expanded="false" />
+            <element signature="e#7731#7928#0" expanded="false" />
+            <element signature="e#7989#8374#0" expanded="false" />
+            <element signature="e#8427#8607#0" expanded="false" />
+            <element signature="e#8643#8855#0" expanded="false" />
+            <element signature="e#8902#9978#0" expanded="false" />
+            <element signature="e#10078#10122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -336,6 +498,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1216#2342#0" expanded="false" />
+            <element signature="e#2433#4186#0" expanded="false" />
+            <element signature="e#4227#5483#0" expanded="false" />
+            <element signature="e#5550#5762#0" expanded="false" />
+            <element signature="e#5818#6354#0" expanded="false" />
+            <element signature="e#6399#7197#0" expanded="false" />
+            <element signature="e#7240#7273#0" expanded="false" />
+            <element signature="e#7316#7697#0" expanded="false" />
+            <element signature="e#7731#7928#0" expanded="false" />
+            <element signature="e#7989#8374#0" expanded="false" />
+            <element signature="e#8427#8607#0" expanded="false" />
+            <element signature="e#8643#8855#0" expanded="false" />
+            <element signature="e#8902#9978#0" expanded="false" />
+            <element signature="e#10078#10122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -347,50 +523,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/robot_maze.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maze.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7360">
-          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="212">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/robot-env/Lib/site-packages/colorama/ansitowin32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="298">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#2039#2150#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Robot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="217">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robot_maze.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="8" />
+    <entry file="file://$PROJECT_DIR$/Maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1216#2342#0" expanded="false" />
+            <element signature="e#2433#4186#0" expanded="false" />
+            <element signature="e#4227#5483#0" expanded="false" />
+            <element signature="e#5550#5762#0" expanded="false" />
+            <element signature="e#5818#6354#0" expanded="false" />
+            <element signature="e#6399#7197#0" expanded="false" />
+            <element signature="e#7240#7273#0" expanded="false" />
+            <element signature="e#7316#7697#0" expanded="false" />
+            <element signature="e#7731#7928#0" expanded="false" />
+            <element signature="e#7989#8374#0" expanded="false" />
+            <element signature="e#8427#8607#0" expanded="false" />
+            <element signature="e#8643#8855#0" expanded="false" />
+            <element signature="e#8902#9978#0" expanded="false" />
+            <element signature="e#10078#10122#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
