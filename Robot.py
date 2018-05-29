@@ -68,6 +68,7 @@ class Robot(object):
         # If Qtable[state] already exits, then do
         # not change it.
         if state not in self.Qtable.keys():
+            self.Qtable[state]={}
             self.Qtable[state]['u']=self.maze.move_robot('u')
             self.Qtable[state]['d']=self.maze.move_robot('d')
             self.Qtable[state]['r']=self.maze.move_robot('r')
@@ -105,6 +106,8 @@ class Robot(object):
             pass
             # TODO 8. When learning, update the q table according
             # to the given rules
+            self.Qtable[self.sense_state()][action]=(1-self.alpha)*self.Qtable[self.sense_state()][action]+ \
+                                                     self.alpha*(r+self.gamma*np.max(self.Qtable[next_state].values()))
 
     def update(self):
         """
